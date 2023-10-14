@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WhereTo</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script src="js/jquery-1.6.js" ></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/NewsGoth_BT_400.font.js"></script>
+<script src="js/NewsGoth_BT_700.font.js"></script>
+<script src="js/jcarousellite.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/atooltip.jquery.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+<![endif]-->
+</head>
+<body id="page1">
+<div class="bg1">
+  <div class="main">
+    <!--header -->
+    <header>
+      <nav>
+        <ul id="menu">
+            <li id="welcom"><a href="index-korisnik.html">Pocetna</a></li>
+            <li><a href="clubs-korisnik.html">Lokali</a></li>
+            <li><a href="dogadjaji-korisnik.html">Dogadjaji</a></li>
+            <li><a href="news-korisnik.html">News</a></li>
+            <li class="active"><a href="korisnik-profil.html">Profil</a></li>
+            <li><a href="#" name="odjava">Log out</a></li>
+        </ul>
+      </nav>
+      <h1><a href="index-korisnik.html" id="logo">WhereTo najbolji provod u gradu!</a></h1>
+    </header>
+    <!--header end-->
+    
+    
+    
+    <div class="box">
+   <!-- content start -->
+    <div class="box">
+      <p style="text-align: end;"><button class="lepibutton" id="obrisiNalog">Obrisi nalog</button></p>
+      <article id="content">
+        <div class="wrapper">
+          <h2>Izmeni informacije o sebi:</h2>
+          <form class="ContactForm" id="korisnikForma" action="#">
+            <div>
+             
+              <div class="wrapper"> <span class="labela-event">Ime:</span>
+                <input type="text" class="input" name="Ime">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Prezime:</span>
+                <input type="text" class="input" name="Prezime">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Novi Email:</span>
+                <input type="text" class="input" name="Email">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Nova Lozinka:</span>
+                <input type="password" required="required" placeholder="Stara lozinka za potvrdu ili nova u slucaju izmene!" class="input" name="Lozinka">
+              </div>
+              <a href="#" class="button" id="potvrdaIzmene">Potvrdi izmene</a> <a href="#" class="button">clear</a> </div>
+          </form>
+          
+        </div>
+          
+    </div>
+      <!--content end-->
+     
+    </div>
+  </div>
+</div>
+<script src="./logout.js" type="module" ></script>
+<script src="js/korisnik-profil.js" type="module" ></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WhereTo</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script src="js/jquery-1.6.js" ></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/NewsGoth_BT_400.font.js"></script>
+<script src="js/NewsGoth_BT_700.font.js"></script>
+<script src="js/jcarousellite.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/atooltip.jquery.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+<![endif]-->
+</head>
+<body id="page1">
+<div class="bg1">
+  <div class="main">
+    <!--header -->
+    <header>
+      <nav>
+        <ul id="menu">
+            <li><a href="index-club.html">Pocetna</a></li>
+            <li><a href="dogadjaji-lokal.html">Dogadjaji lokala</a></li>
+            <li><a href="event.html">Kreiraj dogadjaj</a></li>
+            <li class="active"><a href="lokal-profil.html">Profil</a></li>
+            <li><a href="#" name="odjava">Log out</a></li>
+        </ul>
+      </nav>
+      <h1><a href="index-club.html" id="logo"> WhereTo najbolji provod u gradu! </a></h1>
+    </header>
+    <!--header end-->
+    
+    
+    <!-- content start -->
+    <div class="box">
+      <p style="text-align: end;"><button class="lepibutton" id="obrisiLokal">Obrisi lokal</button></p>
+      <article id="content">
+        <div class="wrapper">
+          <h2>Izmeni informacije o lokalu:</h2>
+          <form class="ContactForm" id="izmenaLokalForma" action="#">
+            <div>
+              <div class="wrapper"> <span class="labela-event">Naziv:</span>
+                <input type="text" class="input" name="Name">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Lokacija:</span>
+                <input type="text" class="input" name="Lokacija">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Vlasnik:</span>
+                <input type="text" class="input" name="Vlasnik">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Radno vreme:</span>
+                <input type="text" class="input" name="RadnoVreme" placeholder="08 - 22 h">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Opis:</span>
+                <input type="text" class="input" name="Vlasnik">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Tagovi:</span>
+                <input type="text" class="input" name="ListaTagova">
+              </div>
+              <a href="#" class="button" id="lokalIzmena">Potvrdi izmene</a> <a href="#" class="button">clear</a> </div>
+          </form>
+          <h2>Izmeni mejl / lozinku:</h2>
+          <form class="ContactForm" id="izmenaKredencijalaForma" action="#">
+            <div class="wrapper"> <span class="labela-event">Novi Email:</span>
+                <input type="text" class="input" name="Email">
+              </div>
+              <div class="wrapper"> <span class="labela-event">Nova Lozinka:</span>
+                <input type="password" class="input" name="Lozinka">
+              </div>
+              <a href="#" class="button" id="lokalPassIzmena">Izmeni</a></div>
+          </form>
+          
+        </div>
+          
+    </div>
+      <!--content end-->
+      
+      
+      <!--footer -->
+    <!-- <footer>
+      <div class="line1">
+       Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+    </footer> -->
+      <!--footer end-->
+  </div>
+</div>
+</div>
+<script src="./logout.js" type="module" ></script>
+<script src="js/lokal-profil.js" type="module" ></script>
+</body>
+</html>
